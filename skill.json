@@ -1,0 +1,24 @@
+{
+  "name": "genpark-meta-muse-computer-use-agent-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Computer operation layout identifier.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "meta",
+    "muse",
+    "computer-use"
+  ],
+  "inputs": {
+    "screen_metadata": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "next_action_coordinates": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
